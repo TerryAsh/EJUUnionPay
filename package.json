@@ -1,0 +1,46 @@
+{
+  "name": "ejuunionpay",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.45.1"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.0.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "homepage": "https://github.com/TerryAsh/EJUUnionPay.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TerryAsh/EJUUnionPay.git"
+  },
+  "rnpm": {
+    "android": {},
+    "ios": {
+      "sharedLibraries": [
+        "CFNetwork.framework",
+        "SystemConfiguration.framework",
+        "libz"
+      ]
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/TerryAsh/EJUUnionPay/issues"
+  },
+  "description": "eju",
+  "main": "index.ios.js",
+  "keywords": [
+    "pay"
+  ],
+  "author": "ash",
+  "license": "ISC"
+}

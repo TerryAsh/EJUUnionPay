@@ -1,0 +1,3 @@
+rootProject.name = 'EJUUnionPay'
+
+include ':app'
